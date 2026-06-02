@@ -26,11 +26,10 @@ A Python port scanner packaged in a Docker container. Scans a target host for op
 ## Project Structure
 
 ```
-lab01-port-scanner/
+lab01_dockerized_port_scanner/
 ├── Dockerfile
 ├── port_scanner.py
-└── test_output/
-    └── result.json
+└── README.md
 ```
 
 ---
