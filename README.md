@@ -10,7 +10,7 @@ to multi-container applications and production-ready deployments.
 
 | Lab | Description | Concepts |
 |-----|-------------|----------|
-| [Lab 01 — Dockerized Port Scanner](./lab01_port__scanner/) | Python port scanner packaged and run inside a Docker container | Dockerfile, images, containers, volumes, CLI arguments, JSON output |
+| [Lab 01 — Dockerized Port Scanner](./lab01_dockerized_port_scanner/) | Python port scanner packaged and run inside a Docker container | Dockerfile, images, containers, volumes, CLI arguments, JSON output |
 
 ---
 
