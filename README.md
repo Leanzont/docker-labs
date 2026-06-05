@@ -1,5 +1,4 @@
 # Docker Labs
-
 Personal Docker labs built as part of a self-directed Cloud/DevOps engineering learning path.
 Each lab focuses on a specific concept, building on the previous one — from containers and images
 to multi-container applications and production-ready deployments.
@@ -8,9 +7,10 @@ to multi-container applications and production-ready deployments.
 
 ## Labs
 
-| Lab | Description | Concepts |
-|-----|-------------|----------|
-| [Lab 01 — Dockerized Port Scanner](./lab01_dockerized_port_scanner/) | Python port scanner packaged and run inside a Docker container | Dockerfile, images, containers, volumes, CLI arguments, JSON output |
+| Lab                                                                  | Description                                                                                   | Concepts                                                                                             |
+| -------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| [Lab 01 — Dockerized Port Scanner](./lab01_dockerized_port_scanner/) | Python port scanner packaged and run inside a Docker container                                | Dockerfile, images, containers, volumes, CLI arguments, JSON output                                  |
+| [Lab 02 — Flask + MySQL with Docker Compose](./lab02_flask_mysql/)   | Two-container application — Flask web app connected to a MySQL database, tracking page visits | Docker Compose, multi-container networking, named volumes, bind mounts, environment variables, Flask |
 
 ---
 
@@ -18,6 +18,8 @@ to multi-container applications and production-ready deployments.
 
 - Docker
 - Python 3
+- Flask
+- MySQL
 - Bash
 - Linux
 

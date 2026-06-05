@@ -1,3 +1,6 @@
 test_output/
 __pycache__/
 *.pyc
+result.json
+*.env
+.env
