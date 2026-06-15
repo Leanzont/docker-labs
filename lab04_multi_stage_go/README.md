@@ -8,11 +8,14 @@ than a standard single-stage build.
 
 ## File structure
 
+```
 lab04_multi_stage_go/
 ├── Dockerfile
 ├── go.mod
 ├── main.go
 └── README.md
+```
+
 ## Dockerfile
 
 ```dockerfile
