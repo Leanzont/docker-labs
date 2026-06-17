@@ -61,7 +61,8 @@ Tells Go to compile for Linux, regardless of the host OS.
 | ------------------------------ | ---------- | ------------ |
 | go-single (builder stage only) | 1.41GB     | 338MB        |
 | go-multi (final multi-stage)   | 26MB       | 8.52MB       |
-The final image is over 10x smaller than the builder stage alone.
+
+The final image is over 50x smaller than the builder stage alone.
 
 ## How to use
 
