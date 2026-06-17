@@ -81,5 +81,12 @@ docker run -p 8080:8080 go-multi
 # Test
 curl http://localhost:8080
 ```
+## Docker Hub
 
+The final image is publicly available on Docker Hub:
+
+```bash
+docker pull leanzont/go-multi:v1
+docker run -p 8080:8080 leanzont/go-multi:v1
+```
 ---
